@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <title>JustStreamIt</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 class="header__title">JustStreamIt</h1>
+            <ul class="header__nav">
+                <li class="header__category">Acceuil</li>
+                <li class="header__category">Catégories</li>
+            </ul>
+        </header>
+        
+            <div id="bestMovieBlock">
+                <section id="bestMovie">
+                <h2>Meilleur Film</h2>
+                    <p id="bestMovie__image"></p>
+                    <p id="bestMovie__contents"></p>
+                </section>  
+                <button class="btn btn__openModal">Infos</button>
+            </div>
+
+            <h1>Meilleurs Films</h1>
+            <div id="caroussel__BM" class="caroussel">
+                <button class="btn arrow__left">⇦</button>
+                    <div id="gallery__BM">
+                        <ul class="images__BM"></ul>
+                    </div>
+                <button class="btn arrow__right">⇨</button>
+            </div>
+
+            <h1>Films d'actions</h1>
+            <div id="caroussel__AM" class="caroussel">
+                <button class="btn arrow__left">⇦</button>
+                    <div id="gallery__AM">
+                        <ul class="images__AM"></ul>
+                    </div>
+                <button class="btn arrow__right">⇨</button>
+            </div>
+
+            <h1>Thriller</h1>
+            <div id="caroussel__T" class="caroussel">
+                <button class="btn arrow__left">⇦</button>
+                    <div id="gallery__T">
+                        <ul class="images__T"></ul>
+                    </div>
+                <button class="btn arrow__right">⇨</button>
+            </div>
+            
+            <h1>Horreur</h1>
+            <div id="caroussel__H" class="caroussel">
+                <button class="btn arrow__left">⇦</button>
+                    <div id="gallery__H">
+                        <ul class="images__H"></ul>
+                    </div>
+                <button class="btn arrow__right">⇨</button>
+            </div>
+        
+            <div id="myModal" class="modal">
+                <div class="modal__content">
+                    <span class="close">&times;</span>
+                    <div class="modal__img"></div>
+                    <h1>Informations</h1>
+                    <ul class="modal__contents"></ul>
+                </div>
+            </div>
+         
+    <script src="scripts.js"></script>    
+    </body>
+    
+</html>

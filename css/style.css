@@ -1,0 +1,152 @@
+body {
+  background: rgba(240, 128, 128, 0.7);
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f4d4d;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+em {
+  font-weight: bold;
+}
+
+.header {
+  border-radius: 10px;
+  color: #1f4d4d;
+  background-color: lightcoral;
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+.header__title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+}
+.header__nav {
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__category {
+  margin-right: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+#bestMovieBlock {
+  background-color: lightcoral;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  color: #1f4d4d;
+  height: 15%;
+  width: 500px;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  margin: auto;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.modal__content {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightcoral;
+  color: #1f4d4d;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+}
+.modal__list {
+  list-style-type: none;
+  text-align: justify;
+}
+
+.close {
+  color: #1f4d4d;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.imgPreview:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.images__BM {
+  display: flex;
+}
+.images__AM {
+  display: flex;
+}
+.images__T {
+  display: flex;
+}
+.images__H {
+  display: flex;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: #1f4d4d;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  height: 30px;
+}
+
+#caroussel__BM {
+  display: flex;
+  justify-content: space-around;
+}
+#caroussel__AM {
+  display: flex;
+  justify-content: space-around;
+}
+#caroussel__T {
+  display: flex;
+  justify-content: space-around;
+}
+#caroussel__H {
+  display: flex;
+  justify-content: space-around;
+}
+
+.arrow__left {
+  margin-top: 140px;
+}
+.arrow__right {
+  margin-top: 140px;
+}
+
+#gallery__BM {
+  display: flex;
+  justify-content: space-around;
+}
